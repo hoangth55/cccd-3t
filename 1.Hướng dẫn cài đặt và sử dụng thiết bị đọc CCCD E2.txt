@@ -1,0 +1,23 @@
+A. ĐỌC VÀ GIẢI MÃ DỮ LIỆU THẺ CĂN CƯỚC GẮN CHIP
+1. Download file và cài drive thiết bị E2
+Download file "2.E2Driver.rar"
+Giải nén, đọc file Readme.txt và làm theo hướng dẫn.
+
+2. Cài đặt phần mềm demo
+Tải file "3.3TCORPeID.Setup.exe" và cài đặt
+Acc: demo/demo@2024
+
+3. Hướng dẫn sử dụng  
+Sử dụng socket theo nội dung trong file "4.API.docx"
+
+4. Sử dụng file "7.Test_cam.html" để test kết nối camera qua SocketIO
+5. Sử dụng file "8.Test_Socket.html" để test kết nối lấy 16 trường dữ liệu qua SocketIO
+
+
+B. XÁC THỰC CĂN CƯỚC VỚI BỘ CÔNG AN
+1. Tài liệu kết nối trong file "5.Hướng dẫn kết nối api xác thực.docx"
+
+2. Sử dụng phần mềm Postman, Import file "5.3TCorp.postman_collection.json" để test kết nối, xác thực căn cước với BCA.
+
+3. Thư viện code C#, ví dụ về kết nối và lấy dữ liệu từ thiết bị
+File "6.Gtel.IDReader.rar"

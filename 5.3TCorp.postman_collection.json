@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "b82b21cd-ff55-4d8f-b85a-954e5e289cc9",
+		"name": "3TCorp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27114924"
+	},
+	"item": [
+		{
+			"name": "verify",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "{{ApiKey}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"ds_cert\": \"LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUVIakNDQTZPZ0F3SUJBZ0lVZm4vZnJTNmNnV09pY0FpVWkxdlVWOVVHYzBzd0NnWUlLb1pJemowRUF3TXdiekVMTUFrR0ExVUVCaE1DVms0eE96QTVCZ05WQkFvTU1sWnBaWFJ1WVcwZ1IyOTJaWEp1YldWdWRDQkpibVp2Y20xaGRHbHZiaUJUWldOMWNtbDBlU0JEYjIxdGFYTnphVzl1TVF3d0NnWURWUVFGRXdNd01ERXhGVEFUQmdOVkJBTU1ERU5UUTBFZ1ZtbGxkRzVoYlRBZUZ3MHlNVEEzTVRVd05ETTJNVEZhRncwME16RXdNRGd3TkRNMk1URmFNSUcxTVFzd0NRWURWUVFHRXdKV1RqRWtNQ0lHQTFVRUNnd2JUV2x1YVhOMGNua2diMllnVUhWaWJHbGpJRk5sWTNWeWFYUjVNVWd3UmdZRFZRUUxERDlRYjJ4cFkyVWdSR1Z3WVhKMGJXVnVkQ0JtYjNJZ1FXUnRhVzVwYzNSeVlYUnBkbVVnVFdGdVlXZGxiV1Z1ZENCdlppQlRiMk5wWVd3Z1QzSmtaWEl4TmpBMEJnTlZCQU1NTFVSdlkzVnRaVzUwSUZOcFoyNWxjaUJPWVhScGIyNWhiQ0JKWkdWdWRHbG1hV05oZEdsdmJpQXdNREF4T1RCNk1CUUdCeXFHU000OUFnRUdDU3NrQXdNQ0NBRUJDd05pQUFRTldmL3pESC9lUlpWTXlyaXlubGdtdnNXWkN3YlhRVzVhbGFZeXJyS244YVcxSXFMTzNiNnNNbk1wU2tocVZ2RmJOZmVBUXdtVmtZNkpaT3RDY3B0d3lYNmpiSVVYT05QamwrZmVNYWhlOFY5dXlTSWVsSnhZdVJnbnNnV1liZVNqZ2dHek1JSUJyekFNQmdOVkhSTUJBZjhFQWpBQU1COEdBMVVkSXdRWU1CYUFGRmVyZFFnaVJJUHdTY3hqV3l5VnhPUkdwWWdJTUg0R0NDc0dBUVVGQndFQkJISXdjREEzQmdnckJnRUZCUWN3QW9ZcmFIUjBjRG92TDI1d2EyUXVaMjkyTG5adUwyTnlkQzlsYVdRdFkzTmpZUzEyYVdWMGJtRnRMbU55ZERBMUJnZ3JCZ0VGQlFjd0FvWXBhSFIwY0RvdkwyTmhMbWR2ZGk1MmJpOWpjblF2Wldsa0xXTnpZMkV0ZG1sbGRHNWhiUzVqY25Rd013WURWUjBSQkN3d0txUVBNQTB4Q3pBSkJnTlZCQWNNQWxaT2hoZG9kSFJ3T2k4dmJuQnJaQzVuYjNZdWRtNHZZM05qWVRCdEJnTlZIUjhFWmpCa01ER2dMNkF0aGl0b2RIUndPaTh2Ym5CclpDNW5iM1l1ZG00dlkzSnNMMlZwWkMxamMyTmhMWFpwWlhSdVlXMHVZM0pzTUMrZ0xhQXJoaWxvZEhSd09pOHZZMkV1WjI5MkxuWnVMMk55YkM5bGFXUXRZM05qWVMxMmFXVjBibUZ0TG1OeWJEQWRCZ05WSFE0RUZnUVVrU3NFcm5RNnJQTHdJckZadGIzdlczYlRHdXN3S3dZRFZSMFFCQ1F3SW9BUE1qQXlNVEEzTVRVd05ETTJNVEZhZ1E4eU1ESXhNVEF4TXpBME16WXhNVm93RGdZRFZSMFBBUUgvQkFRREFnZUFNQW9HQ0NxR1NNNDlCQU1EQTJrQU1HWUNNUUNjc1pkcFdKOFFJcFZwYXFISXlRS1FmbS92b0lhMW4va1JrSmV4ZTRSRE45NmxORUlFSmtWdUNrVjJTU3pvRTI0Q01RRHhVejNvcEZPUGhYVFRSbFUxZXBiSWlKeVN6VzFqR0hQSDQxSitCSnY3L2d0ZDMxZ016aldUNGdHeURUd2RsZmc9Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0=\",\r\n  \"id_card\": \"001087009650\",\r\n  \"device_type\": \"mobile\",\r\n  \"province\": \"Hanoi\",\r\n  \"code\": \"DEMO\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.idcheck.vn/eid/api/verify",
+					"protocol": "https",
+					"host": [
+						"api",
+						"idcheck",
+						"vn"
+					],
+					"path": [
+						"eid",
+						"api",
+						"verify"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "ApiKey",
+			"value": "cnBaZSbqc3SwphVlDK93KDJGjN56SD3t"
+		}
+	]
+}
